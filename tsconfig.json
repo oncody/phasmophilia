@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+     "lib": ["es6", "dom"],
+     "outDir": "./dist",
+     "rootDir": "./src",
+     "removeComments": true,
+//     "isolatedModules": true,
+    "strict": true,
+//     "noUnusedLocals": true,
+//     "noUnusedParameters": true,
+     "noImplicitReturns": true,
+     "noFallthroughCasesInSwitch": true,
+     "types": ["node", "jest"],
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "exclude": [
+    "**/*.test.ts"
+  ]
+}
