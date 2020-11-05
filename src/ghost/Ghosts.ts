@@ -10,6 +10,7 @@ import Revenant from './Revenant';
 import Shade from './Shade';
 import Demon from './Demon';
 import Yurei from './Yurei';
+import Oni from './Oni';
 
 export function ghosts(): Array<Ghost> {
   return [
@@ -24,5 +25,6 @@ export function ghosts(): Array<Ghost> {
     new Shade(),
     new Demon(),
     new Yurei(),
+    new Oni()
   ];
 }
